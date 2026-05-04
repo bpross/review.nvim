@@ -41,4 +41,4 @@ Comments appear as inline virtual text on annotated lines and are written to `.r
 
 ## Comment format
 
-The `.review.md` format matches the [agent-pipeline](https://github.com/moovfinancial/agent-pipeline) review convention — `[file:line]` headers with an optional indented `Fix:` line. Any agent that understands that format can consume these comments directly.
+The `.review.md` format uses `[file:line]` headers with an optional indented `Fix:` line — simple enough for any AI agent to parse directly.
